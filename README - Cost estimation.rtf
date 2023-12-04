@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh11320\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Name: Cost estimation.py\
+\
+Description:\
+The purpose of this Python application is to assist the user with budgeting a computer build for the provided case study for the Project Management module. The hardware components, costs, and development time is all taken from Appendix 1 of the case study, and the software components, costs, and development time is taken from Appendix 2. The choice was made to not use any external tools or libraries, as the required functionality could be achieved using the vanilla Python package. This also helps with compatibility.\
+\
+How to install and run:\
+To run the application, you must have a Python IDE installed. Open the python script in the IDE and run it.\
+\
+How to use:\
+When the application is run you will be met with the main menu. Choose the menu option by typing the number next to the option and press enter.\
+\
+1 - To see the cost and time details for the specs chosen. Can only be run once all specs have been entered.\
+\
+Once the parts are selected it will report costs and development times. Additional costs for required miscellaneous parts are automatically added, as well as a suggested price to customers which is calculated by adding 25% to the total cost.\
+\
+2 - Used to select which specs the computer will have. Choose the components and parts by typing in the name of them how they appear in the lists. You can select one part at a time. If you decide to change one component for a different spec then you can choose it from the list again and it will update your choice. The exception to this is the IOP, in which the parts you choose will be added to the list, as you can have multiple of them in your build. \
+\
+3 - Choose the operating system you would like your computer to run. A selection of the basic software requirements are included in this choice (kernel, libraries, drivers, extensions, sound, and graphics).\
+\
+0 - Exit the application\
+\
+\
+Testing:\
+The user interaction for the application consists of selecting components from on-screen lists, so testing comprised of trying different combinations of components to see if the system is reliable. Where a user can use the system incorrectly (attempting to generate the report before all parts are selected, entering incorrect components or parts), catches were implemented to ensure the system will not crash but will instead explain the fault and return the user to the menu.}
